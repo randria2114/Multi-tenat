@@ -77,4 +77,6 @@ Chaque client dispose de son propre domaine.
 ---
 
 ## 🛡️ Sécurité
-Les domaines en `.localhost` pointent automatiquement vers votre machine locale. Pour des noms de domaines personnalisés, n'oubliez pas de mettre à jour votre fichier `hosts` Windows.
+Les domaines en `.localhost` pointent automatiquement vers votre machine locale. Pour des noms de domaines personnalisés, n'oubliez pas de mettre à jour votre fichier `hosts` :
+- **Windows** : `C:\Windows\System32\drivers\etc\hosts` (en mode Admin).
+- **macOS / Linux** : `/etc/hosts` (utilisez `sudo nano /etc/hosts` dans le terminal).
