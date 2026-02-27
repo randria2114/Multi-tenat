@@ -70,12 +70,6 @@ Chaque client dispose de son propre domaine.
 
 ---
 
-## 📂 Documentation Supplémentaire
-- [Documentation API complète](.gemini/antigravity/brain/70dab82a-7a78-4539-a64c-aad5fe679fc8/api_documentation.md)
-- [Vue d'ensemble de l'architecture](.gemini/antigravity/brain/70dab82a-7a78-4539-a64c-aad5fe679fc8/codebase_overview.md)
-
----
-
 ## 🛡️ Sécurité
 Les domaines en `.localhost` pointent automatiquement vers votre machine locale. Pour des noms de domaines personnalisés, n'oubliez pas de mettre à jour votre fichier `hosts` :
 - **Windows** : `C:\Windows\System32\drivers\etc\hosts` (en mode Admin).
